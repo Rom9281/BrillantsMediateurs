@@ -1,0 +1,33 @@
+.flex-nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    align-items: left;
+    justify-content: flex-start;
+    background-color: var(--appcolor);
+}
+
+.nav-bar-font {
+    font-size: 25px !important;
+    text-align: left;
+    margin-right: 10px; /* Add this line for spacing */
+}
+
+.nav-bar-brand {
+    font-size: 35px !important;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.navbar-elements{
+    margin-left: 50%;
+    margin-right: 5%;
+    text-align: center   ;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.navbar-offcanvas{
+    background-color: #F1E5AC;
+}

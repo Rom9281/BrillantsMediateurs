@@ -1,0 +1,61 @@
+.contact-wrapper {
+    border: 2px solid #ccc; /* Add beautiful borders */
+    border-radius: 10px; /* Add border radius for a rounded look */
+    padding: 40px; /* Add padding for spacing */
+    margin-bottom: 20px; /* Add margin for spacing between elements */
+    margin-left: 50px; /* Add margin for spacing between elements */
+    margin-right: 20px; /* Add margin for spacing between elements */
+    transition: box-shadow 0.3s; /* Add transition for smooth effect */
+
+}
+
+.column-style {
+    display: flex; /* Use flexbox for easier layout */
+    flex-direction: column; /* Stack columns vertically */
+    justify-content: center; /* Center justify items */
+}
+
+.contact-wrapper:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Add relief effect on hover */
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    font-size: x-large; /* Set the font size */
+}
+
+.special-h2 {
+    font-size: x-large; /* Set the font size */
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.special-h3 {
+    font-size: large; /* Set the font size */
+    margin-bottom: 10px; /* Add margin for spacing */
+}
+
+.special-parag {
+    font-size: medium; /* Set the font size */
+    margin-bottom: 10px; /* Add margin for spacing */
+}
+
+.contact-img {
+    width: 110px; /* Set the width of the image */
+    height: 100px; /* Set the height of the image */
+}
+
+@media (max-width: 700px) {
+    .contact-font-h1 {
+        font-size: large; /* Decrease the font size for smaller screens */
+    }
+    .contact-font-h2 {
+        font-size: medium; /* Decrease the font size for smaller screens */
+    }
+    .contact-font-h3 {
+        font-size: small; /* Decrease the font size for smaller screens */
+    }
+    .contact-font-p {
+        font-size: x-small; /* Decrease the font size for smaller screens */
+    }
+}
+

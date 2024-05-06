@@ -1,0 +1,66 @@
+{
+    "1": {
+      "nom": "Consommation de ressources naturelles",
+      "image": "https://example.com/ressources_naturelles.jpg"
+    },
+    "2": {
+      "nom": "Emissions de gaz à effet de serre (GES)",
+      "image": "https://example.com/emissions_ges.jpg"
+    },
+    "3": {
+      "nom": "Utilisation de l'énergie",
+      "image": "https://example.com/utilisation_energie.jpg"
+    },
+    "4": {
+      "nom": "Changement climatique",
+      "image": "https://example.com/changement_climatique.jpg"
+    },
+    "5": {
+      "nom": "Eutrophisation de l'eau",
+      "image": "https://example.com/eutrophisation_eau.jpg"
+    },
+    "6": {
+      "nom": "Acidification de l'air et de l'eau",
+      "image": "https://example.com/acidification_air_eau.jpg"
+    },
+    "7": {
+      "nom": "Formation de photo-oxydants troposphériques",
+      "image": "https://example.com/photo-oxydants_tropospheriques.jpg"
+    },
+    "8": {
+      "nom": "Pollution de l'eau douce",
+      "image": "https://example.com/pollution_eau_douce.jpg"
+    },
+    "9": {
+      "nom": "Utilisation de l'eau",
+      "image": "https://example.com/utilisation_eau.jpg"
+    },
+    "10": {
+      "nom": "Biodiversité",
+      "image": "https://example.com/biodiversite.jpg"
+    },
+    "11": {
+      "nom": "Occupation des sols",
+      "image": "https://example.com/occupation_sols.jpg"
+    },
+    "12": {
+      "nom": "Déforestation",
+      "image": "https://example.com/deforestation.jpg"
+    },
+    "13": {
+      "nom": "Modification du potentiel de réchauffement planétaire (PRP)",
+      "image": "https://example.com/prp.jpg"
+    },
+    "14": {
+      "nom": "Modification du potentiel d'appauvrissement de la couche d'ozone (POCP)",
+      "image": "https://example.com/pocp.jpg"
+    },
+    "15": {
+      "nom": "Formation de particules atmosphériques",
+      "image": "https://example.com/particules_atmospheriques.jpg"
+    },
+    "16": {
+      "nom": "Formation de smog",
+      "image": "https://example.com/smog.jpg"
+    }
+  }

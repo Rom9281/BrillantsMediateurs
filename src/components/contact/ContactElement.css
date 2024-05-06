@@ -1,0 +1,36 @@
+.contact-wrapper {
+    border: 2px solid #ccc; /* Add beautiful borders */
+    border-radius: 10px; /* Add border radius for a rounded look */
+    padding: 40px; /* Add padding for spacing */
+    margin-bottom: 30px; /* Add margin for spacing between elements */
+    margin-left: 50px; /* Add margin for spacing between elements */
+    margin-right: 50px; /* Add margin for spacing between elements */
+    transition: box-shadow 0.3s; /* Add transition for smooth effect */
+    align-items: center; /* Center items vertically */
+}
+
+.contact-wrapper:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Add relief effect on hover */
+    background-color: lightgoldenrodyellow;
+}
+
+
+.contact-image {
+    width: 100px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 100%; /* Make the image circular */
+    margin-right: 20px; /* Add margin for spacing between image and text */
+}
+
+.contact-image:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Add relief effect on hover */
+}
+
+@media (max-width: 700px) {
+    .contact-font-h1 {
+        font-size: 25px; /* Decrease the font size for smaller screens */
+    }
+    .contact-font-h2 {
+        font-size: 20px; /* Decrease the font size for smaller screens */
+    }
+}

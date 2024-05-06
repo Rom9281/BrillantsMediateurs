@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "mediaName": "Linkedin",
+        "info": "romain-gaud",
+        "img":"/contact_img/linkedin.png",
+        "url": "https://www.linkedin.com/in/romain-gaud/"
+    },
+    {
+        "id": "3",
+        "mediaName": "Pro Email",
+        "info": "romain.gaud@cpe.fr",
+        "img":"/contact_img/email.png",
+        "url": "mailto:romain.gaud@cpe.fr"
+    },
+    {
+        "id": "3",
+        "mediaName": "Github",
+        "info": "Rom9281",
+        "img":"/contact_img/github.png",
+        "url": "https://github.com/Rom9281"
+    }
+]

@@ -1,0 +1,35 @@
+.nav-bar-text-element {
+    font-size: 25px !important;
+    text-align: center;
+    color:aqua;
+    transition: color 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .nav-bar-text-element {
+        font-size: 20px !important;
+        text-align: center;
+    }
+}
+
+.nav-bar-text-element:hover {
+    cursor: pointer;
+}
+
+.nav-bar-text-element:active {
+    color: red;
+}
+
+.nav-bar-border-element {
+
+}
+
+.nav-bar-border-element:hover {
+    cursor: pointer;
+    border-bottom: 2px solid goldenrod;
+
+}
+
+.nav-bar-border-element:active {
+    border-bottom: 2px solid red;
+}
