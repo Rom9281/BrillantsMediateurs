@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import './PEFElement.css';
+import GradeCircle from './bar/GradeCircle';
 
-export const PEFElement = ({ id, nom, note }) => {
+export const PEFElement = ({ id, nom, note, image }) => {
 
     const handleClick = () => {
         window.location.href = url;
@@ -36,7 +37,7 @@ export const PEFElement = ({ id, nom, note }) => {
                         >
                             <img
                                 className='contact-image'
-                                //src={img}
+                                src={image}
                                 alt="Contact Image"
                                 width="100"
                                 height="100"
@@ -53,11 +54,11 @@ export const PEFElement = ({ id, nom, note }) => {
                     }
                     {!isWindowSmall &&
                         <>
-                            <Col className='d-flex align-items-center'>
+                            <Col className='middle-text'>
                                 <h1 className='contact-font-h1'>{nom}</h1>
                             </Col>
-                            <Col className='d-flex align-items-center'>
-                                <h2 className='contact-font-h2'>{note}</h2>
+                            <Col className='left-grade'>
+                                <GradeCircle grade={note} />
                             </Col>
                         </>
                     }

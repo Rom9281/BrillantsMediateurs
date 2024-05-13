@@ -34,6 +34,7 @@ export const Label = () => {
                             <PEFElement 
                                 id={id} 
                                 nom={pef[id].nom} 
+                                image={pef[id].image}
                                 note={pefDict[id]} 
                             />
                         </div>

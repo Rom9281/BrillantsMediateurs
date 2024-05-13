@@ -1,66 +1,66 @@
 {
     "1": {
       "nom": "Consommation de ressources naturelles",
-      "image": "https://example.com/ressources_naturelles.jpg"
+      "image": "/PEF_icons/naturel.png"
     },
     "2": {
       "nom": "Emissions de gaz à effet de serre (GES)",
-      "image": "https://example.com/emissions_ges.jpg"
+      "image": "/PEF_icons/effet_serre.png"
     },
     "3": {
       "nom": "Utilisation de l'énergie",
-      "image": "https://example.com/utilisation_energie.jpg"
+      "image": "/PEF_icons/energie.png"
     },
     "4": {
       "nom": "Changement climatique",
-      "image": "https://example.com/changement_climatique.jpg"
+      "image": "/PEF_icons/disaster.png"
     },
     "5": {
       "nom": "Eutrophisation de l'eau",
-      "image": "https://example.com/eutrophisation_eau.jpg"
+      "image": "/PEF_icons/eau.png"
     },
     "6": {
       "nom": "Acidification de l'air et de l'eau",
-      "image": "https://example.com/acidification_air_eau.jpg"
+      "image": "/PEF_icons/acide.png"
     },
     "7": {
       "nom": "Formation de photo-oxydants troposphériques",
-      "image": "https://example.com/photo-oxydants_tropospheriques.jpg"
+      "image": "/PEF_icons/dioxide.png"
     },
     "8": {
       "nom": "Pollution de l'eau douce",
-      "image": "https://example.com/pollution_eau_douce.jpg"
+      "image": "/PEF_icons/eau_pol.png"
     },
     "9": {
       "nom": "Utilisation de l'eau",
-      "image": "https://example.com/utilisation_eau.jpg"
+      "image": "/PEF_icons/water-bottle.png"
     },
     "10": {
       "nom": "Biodiversité",
-      "image": "https://example.com/biodiversite.jpg"
+      "image": "/PEF_icons/biodiversite.png"
     },
     "11": {
       "nom": "Occupation des sols",
-      "image": "https://example.com/occupation_sols.jpg"
+      "image": "/PEF_icons/sol.png"
     },
     "12": {
       "nom": "Déforestation",
-      "image": "https://example.com/deforestation.jpg"
+      "image": "/PEF_icons/deforestation.png"
     },
     "13": {
       "nom": "Modification du potentiel de réchauffement planétaire (PRP)",
-      "image": "https://example.com/prp.jpg"
+      "image": "/PEF_icons/climat.png"
     },
     "14": {
       "nom": "Modification du potentiel d'appauvrissement de la couche d'ozone (POCP)",
-      "image": "https://example.com/pocp.jpg"
+      "image": "/PEF_icons/ozone.png"
     },
     "15": {
       "nom": "Formation de particules atmosphériques",
-      "image": "https://example.com/particules_atmospheriques.jpg"
+      "image": "/PEF_icons/particles.png"
     },
     "16": {
       "nom": "Formation de smog",
-      "image": "https://example.com/smog.jpg"
+      "image": "/PEF_icons/smog.png"
     }
   }
