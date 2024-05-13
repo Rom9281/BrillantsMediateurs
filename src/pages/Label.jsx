@@ -4,7 +4,7 @@ import { NavigationBar } from '../components/nav_bar/NavigationBar';
 import { PEFElement } from '../components/label/PEFElement';
 import './Label.css';
 import composants from '../data/Composants';
-import pef from '../data/pef';
+import pef from '../data/PEF';
 
 
 export const Label = () => {
