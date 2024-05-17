@@ -28,9 +28,9 @@ export const NavigationBar = () => {
                 expand={expand}
             >
                 <Container fluid>
-                    <Navbar.Brand
-                        className='nav-bar-brand'
-                    >Chomarat</Navbar.Brand>
+                    <Navbar.Brand className='nav-bar-brand'>
+                        <img src="/logo/logo.png" alt="Logo" />
+                    </Navbar.Brand>
 
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                     <Navbar.Offcanvas
@@ -55,14 +55,8 @@ export const NavigationBar = () => {
                             <>
                                 <NavigationBarElement props={
                                     {
-                                        name: "Home",
+                                        name: "Accueil",
                                         route: "/"
-                                    }
-                                } />
-                                <NavigationBarElement props={
-                                    {
-                                        name: "Contact Me",
-                                        route: "/contacts"
                                     }
                                 } />
                                 <NavigationBarElement props={
@@ -71,6 +65,13 @@ export const NavigationBar = () => {
                                         route: "/label"
                                     }
                                 } />
+                                <NavigationBarElement props={
+                                    {
+                                        name: "Contact",
+                                        route: "/contacts"
+                                    }
+                                } />
+                                
                             </>
                         </Offcanvas.Body>
 

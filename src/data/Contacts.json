@@ -2,22 +2,22 @@
     {
         "id": "1",
         "mediaName": "Linkedin",
-        "info": "romain-gaud",
+        "info": "CHOMARAT Group",
         "img":"/contact_img/linkedin.png",
-        "url": "https://www.linkedin.com/in/romain-gaud/"
+        "url": "https://www.linkedin.com/company/chomarat-textiles-industries/"
     },
     {
         "id": "3",
-        "mediaName": "Pro Email",
-        "info": "romain.gaud@cpe.fr",
-        "img":"/contact_img/email.png",
-        "url": "mailto:romain.gaud@cpe.fr"
+        "mediaName": "Wikipedia",
+        "info": "Chomarat",
+        "img":"/contact_img/wiki.png",
+        "url": "https://fr.wikipedia.org/wiki/Chomarat"
     },
     {
         "id": "3",
-        "mediaName": "Github",
-        "info": "Rom9281",
-        "img":"/contact_img/github.png",
-        "url": "https://github.com/Rom9281"
+        "mediaName": "Site Officiel",
+        "info": "Chomarat.com",
+        "img":"/contact_img/site.png",
+        "url": "https://chomarat.com/"
     }
 ]

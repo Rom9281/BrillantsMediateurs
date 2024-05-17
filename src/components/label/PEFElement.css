@@ -1,9 +1,11 @@
 .contact-wrapper {
-    
     display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
     border: 2px solid #ccc;
     border-radius: 10px;
     padding: 40px;
+    width: 100%;
     /* Add padding for spacing */
     margin-bottom: 30px;
     /* Add margin for spacing between elements */
@@ -17,20 +19,15 @@
 
 .contact-wrapper:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    /* Add relief effect on hover */
     background-color: lightgrey;
 }
 
 
 .contact-image {
     width: 100px;
-    /* Set image width */
     height: auto;
-    /* Maintain aspect ratio */
     border-radius: 0%;
-    /* Make the image circular */
     margin-right: 20px;
-    /* Add margin for spacing between image and text */
 }
 
 .contact-image:hover {
@@ -44,24 +41,32 @@
 
 @media (max-width: 700px) {
     .contact-font-h1 {
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .contact-font-h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
+.left-image {
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+}
+
+
 .middle-text {
-    flex:3;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.left-grade {
-    flex:1;
+.right-grade {
+    display: flex;
     margin-right: 5%;
-    text-align: right;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: right;
 }

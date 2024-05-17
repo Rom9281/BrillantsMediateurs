@@ -1,9 +1,11 @@
 import React from 'react';
 import './GradeCircle.css';
 
-const GradeCircle = ({ grade }) => {
+const GradeCircle = ({ grade, size }) => {
     
     let color = 'red';
+    let circleSize = '120px';
+    let fontSize = '30px';
 
     if (grade < 4) {
         color = 'red';
@@ -13,9 +15,14 @@ const GradeCircle = ({ grade }) => {
         color = 'green';
     }
 
+    if (size === 0) {
+        circleSize = '70px';
+        fontSize = '20px';
+    }
+
     const circleStyle = {
-        width: '100px',
-        height: '100px',
+        width: circleSize,
+        height: circleSize,
         borderRadius: '50%',
         backgroundColor: color,
         display: 'flex',
@@ -28,14 +35,14 @@ const GradeCircle = ({ grade }) => {
 
     const textStyle = {
         color: 'white',
-        fontSize: '24px',
+        fontSize: fontSize,
         fontWeight: 'bold',
     };
 
     return (
         <div className="grade-circle-container">
             <div style={circleStyle}>
-                <span style={textStyle}>{grade}</span>
+                <span style={textStyle}>{grade}/10</span>
             </div>
         </div>
     );

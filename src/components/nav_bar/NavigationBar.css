@@ -29,5 +29,5 @@
   }
 
 .navbar-offcanvas{
-    background-color: #F1E5AC;
+    background-color: var(--appcolor);
 }

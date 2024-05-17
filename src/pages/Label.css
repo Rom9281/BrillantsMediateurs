@@ -1,3 +1,30 @@
 .identification-label {
-    margin-top: 110px;
+    margin-top: 50px;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 130px;
+    margin-right: 20px;
+}
+
+.composite-title {
+    margin-top: 50px;
+    font-size: 36px; /* Increase the font size for a more stylish look */
+    color: #333;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    font-weight: bold; /* Add font-weight for a bolder appearance */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for a stylish effect */
+}
+
+.composite-title:hover {
+    color: var(--appcolor); /* Change the color on hover for an interactive effect */
+}
+
+.composite-title:active {
+    transform: scale(0.9);
 }
