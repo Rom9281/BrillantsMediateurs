@@ -11,6 +11,7 @@
 }
 
 .composite-title {
+    margin-bottom: 20px;
     margin-top: 50px;
     font-size: 36px; /* Increase the font size for a more stylish look */
     color: #333;
@@ -28,3 +29,17 @@
 .composite-title:active {
     transform: scale(0.9);
 }
+
+.composite-acv-title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.composite-info {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #333;
+    font-size: 26px;
+    text-align: center;
+}
+

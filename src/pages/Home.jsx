@@ -8,7 +8,7 @@ export const Home = () => {
         <>
             <NavigationBar />
             <div className='img-container'>
-                <div className="welcome-text">ACV</div>
+                <div className="welcome-text">Analyse de Cycle de Vie</div>
                 <img src="home_img/composite.jpg" />
             </div>
 

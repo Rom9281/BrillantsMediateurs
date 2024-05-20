@@ -18,7 +18,10 @@
             "14": 1,
             "15": 2,
             "16": 1
-          }
+        },
+        "kg_co2": 2500,
+        "recyclabilite": 0,
+        "info_acv": "Grande émission lors de la fabrication, non recyclable, durée de vie courte."
     },
     "2": {
         "nom": "PVC Haute Résistance",
@@ -39,7 +42,10 @@
             "14": 2,
             "15": 3,
             "16": 2
-          }
+        },
+        "kg_co2": 1500,
+        "recyclabilite": 30,
+        "info_acv": "Émissions modérées, partiellement recyclable, coût énergétique élevé."
     },
     "3": {
         "nom": "Aluminium Recyclé",
@@ -60,7 +66,10 @@
             "14": 5,
             "15": 6,
             "16": 4
-          }
+        },
+        "kg_co2": 500,
+        "recyclabilite": 90,
+        "info_acv": "Utilisation de matériaux recyclés, faibles émissions, très recyclable."
     },
     "4": {
         "nom": "Bioplastique Avancé",
@@ -81,7 +90,10 @@
             "14": 6,
             "15": 8,
             "16": 7
-          }
+        },
+        "kg_co2": 300,
+        "recyclabilite": 80,
+        "info_acv": "Basé sur des ressources renouvelables, faible impact environnemental, bonne durabilité."
     },
     "5": {
         "nom": "Polymère Bio-Inspiré",
@@ -102,69 +114,9 @@
             "14": 8,
             "15": 10,
             "16": 9
-          }
-    },
-    "6": {
-        "nom": "Composite de Lin",
-        "PEF": {
-            "1": 8,
-            "2": 7,
-            "3": 9,
-            "4": 7,
-            "5": 8,
-            "6": 9,
-            "7": 10,
-            "8": 8,
-            "9": 9,
-            "10": 7,
-            "11": 8,
-            "12": 7,
-            "13": 10,
-            "14": 8,
-            "15": 9,
-            "16": 8
-          }
-    },
-    "7": {
-        "nom": "Mousse de Polystyrène",
-        "PEF": {
-            "1": 2,
-            "2": 1,
-            "3": 3,
-            "4": 2,
-            "5": 1,
-            "6": 2,
-            "7": 2,
-            "8": 1,
-            "9": 3,
-            "10": 1,
-            "11": 2,
-            "12": 1,
-            "13": 3,
-            "14": 1,
-            "15": 2,
-            "16": 1
-          }
-    },
-    "8": {
-        "nom": "Verre Renforcé",
-        "PEF": {
-            "1": 6,
-            "2": 5,
-            "3": 7,
-            "4": 6,
-            "5": 4,
-            "6": 5,
-            "7": 6,
-            "8": 4,
-            "9": 7,
-            "10": 4,
-            "11": 5,
-            "12": 4,
-            "13": 6,
-            "14": 4,
-            "15": 5,
-            "16": 4
-          }
+        },
+        "kg_co2": 100,
+        "recyclabilite": 95,
+        "info_acv": "Excellente performance environnementale, très faible émission, entièrement recyclable."
     }
 }

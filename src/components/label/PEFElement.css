@@ -47,6 +47,9 @@
     .contact-font-h2 {
         font-size: 18px;
     }
+    .contact-image {
+        width: 50px;
+    }
 }
 
 .left-image {

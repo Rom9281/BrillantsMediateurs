@@ -20,6 +20,11 @@ export const Label = () => {
     if (id != null) {
         if (composants.hasOwnProperty(strId)) {
             const name = composants[strId].nom;
+            const kg_co2 = composants[strId].kg_co2;
+            const recyclabilite = composants[strId].recyclabilite;
+            const info_acv = composants[strId].info_acv;
+
+
             let pefDict = composants[strId].PEF;
             let pefIDArray = Object.keys(pefDict);
 
@@ -28,7 +33,11 @@ export const Label = () => {
                 <div>
                     
                     <h1 className='composite-title'>{name}</h1>
-                    <p className='composite-id'>Id: {id}</p>
+                    <h2 className='composite-info'>Identifiant: {id}</h2>
+                    <h2 className='composite-info'>Emission de CO2 pour la fabrication: {kg_co2} kg</h2>
+                    <h2 className='composite-info'>Recyclabilité: {recyclabilite}%</h2>
+                    <p className='composite-acv-title'>Informations ACV: {info_acv}</p>
+
                 
                {pefIDArray.map((id) => {
                     return (
