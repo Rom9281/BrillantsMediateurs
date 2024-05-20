@@ -14,7 +14,7 @@ export const PEFElement = ({ id, nom, note, image }) => {
 
     useEffect(() => {
         const handleResize = () => {
-            setIsWindowSmall(window.innerWidth < 850);
+            setIsWindowSmall(window.innerWidth < 700);
         };
 
         // Run the function once to set the initial state

@@ -6,15 +6,10 @@
     border-radius: 10px;
     padding: 40px;
     width: 100%;
-    /* Add padding for spacing */
     margin-bottom: 30px;
-    /* Add margin for spacing between elements */
     margin-left: 50px;
-    /* Add margin for spacing between elements */
     margin-right: 50px;
-    /* Add margin for spacing between elements */
     transition: box-shadow 0.3s;
-    /* Add transition for smooth effect */
 }
 
 .contact-wrapper:hover {
@@ -41,7 +36,7 @@
 
 @media (max-width: 700px) {
     .contact-font-h1 {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .contact-font-h2 {
@@ -49,6 +44,20 @@
     }
     .contact-image {
         width: 50px;
+        margin-right: 10px;
+    }
+    .left-image {
+        margin-left: 0;
+        margin-right: 0px;
+    }
+    .middle-text {
+        margin-left: 0;
+        margin-right: 0px;
+    }
+    .contact-wrapper {
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 

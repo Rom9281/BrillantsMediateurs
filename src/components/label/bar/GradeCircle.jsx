@@ -16,8 +16,8 @@ const GradeCircle = ({ grade, size }) => {
     }
 
     if (size === 0) {
-        circleSize = '70px';
-        fontSize = '20px';
+        circleSize = '40px';
+        fontSize = '13px';
     }
 
     const circleStyle = {
